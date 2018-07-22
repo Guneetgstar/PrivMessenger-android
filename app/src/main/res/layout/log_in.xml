@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="35dp"
+                android:text="Welcome !"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:text="Enter some info to get started ..."
+                android:textSize="17sp" />
+
+            <!-- <LinearLayout
+                 android:layout_below="@id/txt2"
+                 android:layout_width="match_parent"
+                 android:layout_marginTop="70dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:id="@+id/ll1"
+                 android:background="@drawable/rounded_corner1"
+                 android:orientation="vertical"
+                 android:paddingBottom="10dp"
+                 android:paddingEnd="15dp"
+                 android:paddingStart="15dp"
+                 android:paddingTop="10dp">
+
+                 <LinearLayout
+                     android:id="@+id/usrname"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:orientation="vertical">
+
+
+                     <AutoCompleteTextView
+                         android:id="@+id/un"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:background="@drawable/rounded_corner"
+                         android:drawableLeft="@drawable/ic_mail_bullet"
+                         android:hint="Enter Email Id"
+                         android:paddingLeft="5dp" />
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:id="@+id/password"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:layout_below="@+id/usrname"
+                     android:layout_marginTop="10dp">
+
+                     <EditText
+                         android:id="@+id/pw"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:background="@drawable/rounded_corner"
+                         android:drawableLeft="@drawable/ic_p"
+                         android:hint="Enter password"
+                         android:inputType="txextPassword"
+
+                         android:paddingStart="12dp" />
+
+                 </LinearLayout>
+
+
+         </LinearLayout>
+
+             <LinearLayout
+                 android:layout_marginTop="50dp"
+                 android:layout_below="@id/ll1"
+                 android:id="@+id/ll2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:orientation="vertical">
+
+                 <Button
+                     android:id="@+id/login1"
+                     android:layout_width="150dp"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginBottom="30dp"
+                     android:layout_marginTop="10dp"
+                     android:background="@drawable/rounded_corner2"
+                     android:text="Log In"
+                     android:textSize="20sp" />
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Don't have an account ?  ">
+
+                     </TextView>
+
+                     <TextView
+                         android:id="@+id/clickme"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Tap me!"
+                         android:textColor="@color/blue" />
+                 </LinearLayout>
+
+             </LinearLayout><-->
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/fab"
+                android:layout_below="@+id/txt2" />
+
+        </RelativeLayout>
+    </RelativeLayout>

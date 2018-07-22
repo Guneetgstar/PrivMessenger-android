@@ -1,0 +1,26 @@
+<resources>
+    <string name="site">http://192.168.10.13:8084/PrivMessenger/</string>
+    <string name="domain">192.168.10.13</string>
+    <string name="site_p">http://192.168.10.13:8084/PrivMessenger/</string>
+    <string name="app_name">PrivMessenger</string>
+    <string name="sign_in_up">Sign in/up</string>
+    <string name="button">Button</string>
+    <string name="enter_text">Enter text</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="about">This app is designed for knowledge purpuse only and is nowhere being used for any commercial puposes.
+        \n\n
+Big thanks to my guide Mr. Dharmu Kumar Mishra, without him this would never be a reality.
+\n\n
+This Project is submited to IGNOU.
+\n\n
+©PrivMessenger\n
+Ver0.1\n
+Contact dev guneetgstar@gmail.com
+</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

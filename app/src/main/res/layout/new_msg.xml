@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.priv.messenger.NewMsg">
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searching"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@id/searching"
+        android:layout_height="wrap_content"
+        android:hint="Search a friend..."
+        android:id="@+id/search"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search"
+        android:paddingStart="20dp"
+        android:onClick="find"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="20dp"
+        android:textSize="25sp"
+        android:background="@drawable/rounded_corner2"
+        android:text="Find"/>
+
+
+</RelativeLayout>

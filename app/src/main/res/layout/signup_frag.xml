@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner1"
+            android:paddingBottom="10dp"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp">
+            <LinearLayout
+                android:id="@+id/usrname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/un"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner"
+                    android:drawableStart="@drawable/ic_mail_bullet"
+                    android:hint="Enter Email Id"
+                    android:paddingStart="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mobl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/usrname"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/mob"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner"
+                    android:drawableStart="@drawable/ic_mobile_bulet"
+                    android:hint="Mobile no. (Optional)"
+                    android:paddingStart="5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/mobl"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner"
+                    android:drawableStart="@drawable/ic_p"
+                    android:hint="Enter password"
+                    android:inputType="textPassword"
+                    android:paddingStart="12dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/password"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/pw1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner"
+                    android:drawableStart="@drawable/ic_pp"
+                    android:hint="Re-Enter password"
+                    android:inputType="textPassword"
+                    android:paddingStart="12dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/rl">
+            <CheckBox
+                android:id="@+id/chk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="Please check if you agree with T&amp;C."
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/chk"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rounded_corner2"
+                android:text="Sign Up"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/signup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account?  ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/clickme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap me!"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
