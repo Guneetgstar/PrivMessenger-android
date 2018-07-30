@@ -14,53 +14,43 @@ Screenshots:
 
 
 LoginFragment:
-<br></br>
-<img src="screenshots/Screenshot_20180730-164113.png"/>
-<br></br>
+<p align="center">
+<img src="screenshots/Screenshot_20180730-164113.png" height="60%" width="35%" />
+</p>
 SignUpFragment:
-<br></br>
-<img src="screenshots/Screenshot_20180730-164122.png"/>
-<br></br>
+<p align="center">
+<img src="screenshots/Screenshot_20180730-164122.png" height="60%" width="35%" />
+</p>
 Navigation Panel:
-<br></br>
-<img src="screenshots/Screenshot_20180730-140657.png"/>
-<br></br>
+<p align="center">
+<img src="screenshots/Screenshot_20180730-140657.png" height="60%" width="35%" />
+</p>
 
 
 MainAfLogin(Conversations):
-<br></br>
-<img src="screenshots/Screenshot_20180730-140648.png"/>
-<br></br>
+<p align="center">
+<img src="screenshots/Screenshot_20180730-140648.png" height="60%" width="35%" />
+</p>
 
-<style type="text/css">
-    img{
-        height:60%;
-        display:block;
-        width:35%;
-        margin-left:auto;
-        margin-right:auto;
-        
-    }
-</style>
 
 
 NewMsg:
-<br></br>
-<img src="screenshots/Screenshot_20180730-140752.png"  />
-<br></br>
+<p align="center">
+<img src="screenshots/Screenshot_20180730-140752.png" height="60%" width="35%" />
+</p>
 
 
 Chat:
-<br></br>
-<img src="screenshots/Screenshot_20180330-220850.png"/>
-<br></br>
+<p align="center">
+<img src="screenshots/Screenshot_20180330-220850.png" height="60%" width="35%" />
+</p>
 
 
 UploadFragment:
 <br><br/>
-<br></br>
-<img src="screenshots/Copy%20of%20Screenshot_20180730-140708.png"/>
-<br></br>
+<p align="center">
+<img src="screenshots/Copy%20of%20Screenshot_20180730-140708.png" height="60%" width="35%" />
+</p>
 
 
 @github/guneetgstar
