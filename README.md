@@ -15,7 +15,7 @@ Screenshots:
 
 LoginFragment:
 
-<img src="screenshots/Screenshot_20180730-164113.png" style="float:center; height:70%; width:45%;" />
+<img src="screenshots/Screenshot_20180730-164113.png" align="center" height="70%" width="45%" />
 
 
 SignUpFragment:
