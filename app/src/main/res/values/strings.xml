@@ -1,7 +1,7 @@
 <resources>
-    <string name="site">http://192.168.10.13:8084/PrivMessenger/</string>
-    <string name="domain">192.168.10.13</string>
-    <string name="site_p">http://192.168.10.13:8084/PrivMessenger/</string>
+    <string name="site">http://192.168.43.13:8084/PrivMessenger/</string>
+    <string name="domain">192.168.43.13</string>
+    <string name="site_p">http://192.168.43.13:8084/PrivMessenger/</string>
     <string name="app_name">PrivMessenger</string>
     <string name="sign_in_up">Sign in/up</string>
     <string name="button">Button</string>

@@ -15,35 +15,37 @@ Screenshots:
 
 LoginFragment:
 
-![alt text](screenshots/Screenshot_20180730-164113.png)
+<img src="screenshots/Screenshot_20180730-164113.png" style="float:center;height:70%;width:45%;"/>
 
 
 SignUpFragment:
 
-![alt text](screenshots/Screenshot_20180730-164122.png)
+![](screenshots/Screenshot_20180730-164122.png)
 
 
 Navigation Panel:
 
-![alt text](screenshots/Screenshot_20180730-140657.png)
+![](screenshots/Screenshot_20180730-140657.png)
 
 
 MainAfLogin(Conversations):
 
-![alt text](screenshots/Screenshot_20180730-140648.png)
+![](screenshots/Screenshot_20180730-140648.png)
 
 
 NewMsg:
 
-![alt text](screenshots/Screenshot_20180730-140752.png)
+![](screenshots/Screenshot_20180730-140752.png)
 
 
 Chat:
 
-![alt text](screenshots/Screenshot_20180330-220850.png)
+![](screenshots/Screenshot_20180330-220850.png)
 
 
 UploadFragment:
 
-![alt text](screenshots/Copy%20of%20Screenshot_20180730-140708.png)
+![](screenshots/Copy%20of%20Screenshot_20180730-140708.png)
 
+
+@github/guneetgstar
